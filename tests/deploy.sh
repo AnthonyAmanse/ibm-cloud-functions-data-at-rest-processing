@@ -2,7 +2,7 @@
 
 # test
 pushd incubator-openwhisk-devtools/docker-compose
-
+sudo cp /usr/local/bin/wsk ./openwhisk-src/bin/wsk
 make add-catalog create-provider-alarms create-provider-kafka create-provider-cloudant
 
 popd
